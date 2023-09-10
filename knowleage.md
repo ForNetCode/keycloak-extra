@@ -1,0 +1,1 @@
+[keycloak-login-spi](https://github.com/moz-kamen/keycloak-login-spi) Login with Phone number, but needs to implement the SMS Client.
