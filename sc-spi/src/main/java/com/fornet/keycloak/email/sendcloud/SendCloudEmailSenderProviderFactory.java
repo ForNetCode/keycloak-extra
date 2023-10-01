@@ -11,17 +11,17 @@ import java.util.Map;
 
 public class SendCloudEmailSenderProviderFactory implements EmailSenderProviderFactory, ServerInfoAwareProviderFactory {
     @Override
-    public EmailSenderProvider create(KeycloakSession keycloakSession) {
+    public EmailSenderProvider create(KeycloakSession session) {
         return null;
     }
 
     @Override
-    public void init(Config.Scope scope) {
-
+    public void init(Config.Scope config) {
+        
     }
 
     @Override
-    public void postInit(KeycloakSessionFactory keycloakSessionFactory) {
+    public void postInit(KeycloakSessionFactory factory) {
 
     }
 
