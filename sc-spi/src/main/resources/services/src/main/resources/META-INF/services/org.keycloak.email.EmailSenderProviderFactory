@@ -1,1 +1,1 @@
-com.fornet.keycloak.email.sendcloud.SendCloudEmailSenderProviderFactory
+com.fornet.keycloak.email.ses.SESEmailSenderProviderFactory

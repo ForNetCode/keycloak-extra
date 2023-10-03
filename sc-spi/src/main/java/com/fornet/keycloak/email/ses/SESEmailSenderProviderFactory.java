@@ -1,4 +1,4 @@
-package com.fornet.keycloak.email.sendcloud;
+package com.fornet.keycloak.email.ses;
 
 import org.keycloak.Config;
 import org.keycloak.email.EmailSenderProvider;
@@ -9,7 +9,7 @@ import org.keycloak.provider.ServerInfoAwareProviderFactory;
 
 import java.util.Map;
 
-public class SendCloudEmailSenderProviderFactory implements EmailSenderProviderFactory, ServerInfoAwareProviderFactory {
+public class SESEmailSenderProviderFactory implements EmailSenderProviderFactory, ServerInfoAwareProviderFactory {
     @Override
     public EmailSenderProvider create(KeycloakSession session) {
         return null;
@@ -17,7 +17,7 @@ public class SendCloudEmailSenderProviderFactory implements EmailSenderProviderF
 
     @Override
     public void init(Config.Scope config) {
-        
+
     }
 
     @Override
